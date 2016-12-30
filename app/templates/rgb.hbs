@@ -1,0 +1,37 @@
+<section id="rgb">
+  <div class="flex">
+    <div class="col-xs-8" style="margin-bottom:40px">
+      {{ui-slider
+        mood="error"
+        value=red
+        defaultValue=0
+        min=0
+        max=100
+        step=1
+        orientation='horizontal'
+        changed='changed'}}
+    </div>
+    <div class="col-xs-8" style="margin-bottom:40px">
+      {{ui-slider
+        mood="success"
+        value=green
+        defaultValue=0
+        min=0
+        max=100
+        step=1
+        orientation='horizontal'
+        changed='changed'}}
+    </div>
+    <div class="col-xs-8">
+      {{ui-slider
+        mood="info"
+        value=blue
+        defaultValue=0
+        min=0
+        max=100
+        step=1
+        orientation='horizontal'
+        changed='changed'}}
+    </div>
+  </div>
+</section>
