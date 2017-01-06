@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('led');
   this.route('rgb');
+  this.route('vibrate');
 });
 
 export default Router;
