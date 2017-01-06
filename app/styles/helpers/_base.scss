@@ -10,3 +10,12 @@ html,body {
 .ember-view {
   height: 100%;
 }
+section.section {
+  height: 100%;
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
